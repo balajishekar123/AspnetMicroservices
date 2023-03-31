@@ -1,0 +1,21 @@
+﻿This api used Redis as database which stores data as key-pair and in-memory database that is primarly used for caching.
+It is very fast. It is open source no-sql database. 
+Redis is a distributed caching tool whose data can be accessed in other microservices.
+
+Redis cache database setup command.
+docker pull redis
+
+command to run redis image in container
+docker run -d -p 6379:6379 --name aspnetrun-redis redis
+-d "detach mode"
+-p "port"
+
+To enter into redis container
+docker exec -it containername /bin/bash
+-it "Interactive terminal"
+
+redis CLI commands
+redis-cli to enter into redis cli
+ping - to check cli is working
+set key value eg set name arjun
+get key eg: get name

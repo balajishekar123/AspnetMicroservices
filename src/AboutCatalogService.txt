@@ -1,0 +1,8 @@
+This is N layer archiecture which uses mongodb as backend for storing data.
+
+1. UI Component in Presentation layer.
+2. Service layer (Business layer)
+3. Data layer 
+4. Database
+5. Common layer which is common for all layer.
+   
