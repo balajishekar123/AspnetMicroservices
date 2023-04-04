@@ -19,3 +19,13 @@ redis-cli to enter into redis cli
 ping - to check cli is working
 set key value eg set name arjun
 get key eg: get name
+
+
+command to run docker compose from powershell command
+ docker-compose -f docker.compose.yml -f docker-compose.override.yml up -d
+
+ to remove all containers from docker 
+ docker-compose -f docker-composeyml -f docker-compose.override.yml down
+
+ build command to reflect the changes made to the project into the docker images.
+ docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build

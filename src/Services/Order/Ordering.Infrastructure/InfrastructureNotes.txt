@@ -1,0 +1,2 @@
+﻿To add migration folder run the below command in package manager console.
+Add-Migration InitialCreate

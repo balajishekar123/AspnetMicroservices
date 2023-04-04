@@ -1,0 +1,7 @@
+These api is built on Clean archiecture using CQRS and DDD patterns having 4 layers.
+1) Domain layer is the base layer which has no reference to any projects.
+2) Applicaiton  layer where the business logic is implemented for calling database using Repository pattern.( Repository) is implemented. So that in future is this has to implemented by other database then code change is 
+required only in this layer not in Application layer.
+3) Infracture layer where project infrasture related like database operations.
+4) API layer which the layer that is called from the client.
+
